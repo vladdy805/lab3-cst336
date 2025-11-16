@@ -1,0 +1,79 @@
+body.index {
+    background-image: url("../img/coffeeShop.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: -70px 0;
+    padding-top: 100px;
+    color: rgba(255, 255, 255, 0.849);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body.welcome {
+    background-image: url("../img/welcome.jpeg");
+    background-size: clamp(1200px, 120%, 2500px) auto;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    padding-top: 100px;
+    text-align: center;
+    font-size: xx-large;
+}
+
+h1 {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+    border: 1px solid rgba(0, 0, 0, 0.7);
+    border-radius: 4%;
+    width: 200px;
+    margin: 20px auto;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding-bottom: 5px;
+}
+#h1 {
+    padding-bottom: 50px;
+}
+
+#card {
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: justify;
+    width: 400px;
+    margin: -20px auto;
+    padding: 20px;
+    border: 2px solid #333;
+    border-radius: 8px;
+    color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.4);
+}
+
+#fName,
+#lName,
+#county,
+#zip,
+#username,
+#passwrd,
+#passwrd2,
+#state {
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 5%;
+    color: white;
+    letter-spacing: 1px;
+    line-height: 1.2;
+}
+
+#submit {
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 5%;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+}
+
+#suggestedPwd,
+#usernameError,
+#passwordError,
+#zipError {
+    font-style: italic;
+    letter-spacing: 1px;
+}

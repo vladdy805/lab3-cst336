@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title> Sign Up Page </title>
+    <link href="css/styles.css" rel="stylesheet">
+</head>
+
+<body class="index">
+    <div id="h1">
+    <h1> Sign Up </h1>
+    </div>
+    <div id="card">
+        <form id="signupForm" action="welcome.html">
+            First Name:<input type="text" name="fName" id="fName"><br><br>
+            Last Name: <input type="text" name="lName" id="lName"><br><br>
+            Gender:
+            <input type="radio" name="gender" value="m">Male
+            <input type="radio" name="gender" value="f">Female<br><br>
+
+            Zip Code: <input type="text" id="zip" name="zip"><br>
+            <span id="zipError"></span><br><br>
+            City: <span id="city"></span> <br><br>
+            Latitude: <span id="latitude"></span><br><br>
+            Longitude: <span id="longitude"></span><br><br>
+
+            State:
+            <select id="state"></select> <br><br>
+
+            Select a County: <select id="county"></select><br><br>
+
+            Desired Username:   
+            <input type="text" id="username" autocomplete="default"><br>
+            <span id="usernameError"></span><br>
+
+            Password: <input type="password" id="passwrd"><br>
+            <span id="suggestedPwd"></span> <br>
+            Type Password Again: <input type="password" id="passwrd2"><br>
+            <span id="passwordError"></span><br><br>
+
+            <input type="submit" value="Sign up" id="submit">
+        </form>
+    </div>
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
